@@ -1,0 +1,21 @@
+{
+  "name": "ZSTD",
+  "version": "1.0.0",
+  "description": "Zstandard, fast real-time compression algorithm",
+  "keywords": "zstd, compression, lossless",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skhaz/platformio-zstd.git"
+  },
+  "authors": [
+    {
+      "name": "Rodrigo Deldica",
+      "email": "rodrigodelduca@gmail.com",
+      "url": "https://rodrigodelduca.com.br/"
+    }
+  ],
+  "license": "BSD",
+  "homepage": "http://www.zstd.net/",
+  "frameworks": "*",
+  "platforms": "*"
+}
