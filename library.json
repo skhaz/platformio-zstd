@@ -14,7 +14,7 @@
       "url": "https://rodrigodelduca.com.br/"
     }
   ],
-  "license": "BSD",
+  "license": "BSD-1-Clause",
   "homepage": "http://www.zstd.net/",
   "frameworks": "*",
   "platforms": "*"
