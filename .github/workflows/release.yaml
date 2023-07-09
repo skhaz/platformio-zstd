@@ -19,7 +19,12 @@ jobs:
       - name: Install Platform IO
         run: python3 -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio/master/scripts/get-platformio.py)"
 
+      - name: Authenticate
+        run: pio account login
+        env:
+          PATH: /home/runner/.platformio/penv/bin
+
       - name: Publish
-        run: pio pkg pack .
+        run: pio package publish .
         env:
           PATH: /home/runner/.platformio/penv/bin
