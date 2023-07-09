@@ -15,6 +15,7 @@ jobs:
       - name: Restore Cache
         uses: actions/cache@v3
         with:
+          key: pio
           path: |
             ~/.cache/pip
             ~/.platformio/.cache
