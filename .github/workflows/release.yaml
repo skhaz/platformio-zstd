@@ -29,10 +29,4 @@ jobs:
         run: pip install --upgrade platformio
 
       - name: Build PlatformIO Project
-        run: pio run
-      # - name: Publish
-      #   run: |
-      #     pio account login
-      #     pio package publish .
-      #   env:
-      #     PATH: /home/runner/.platformio/penv/bin
+        run: pio pkg publish
