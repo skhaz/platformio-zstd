@@ -23,12 +23,12 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: "3.11"
 
-      - name: Install PlatformIO Core
+      - name: Install PlatformIO
         run: pip install --upgrade platformio
 
-      - name: Build PlatformIO Project
+      - name: Publish
         run: pio pkg publish --no-interactive
         env:
           PLATFORMIO_AUTH_TOKEN: ${{ secrets.PLATFORMIO_AUTH_TOKEN }}

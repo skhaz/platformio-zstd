@@ -1,6 +1,6 @@
 {
   "name": "ZSTD",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zstandard, fast real-time compression algorithm",
   "keywords": "zstd, compression, lossless",
   "repository": {
