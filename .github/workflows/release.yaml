@@ -30,3 +30,5 @@ jobs:
 
       - name: Build PlatformIO Project
         run: pio pkg publish
+        env:
+          PLATFORMIO_AUTH_TOKEN: ${{ secrets.PLATFORMIO_AUTH_TOKEN }}
