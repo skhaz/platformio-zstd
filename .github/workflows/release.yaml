@@ -21,3 +21,5 @@ jobs:
 
       - name: Publish
         run: pio pkg pack .
+        env:
+          PATH: /home/runner/.platformio/penv/bin
