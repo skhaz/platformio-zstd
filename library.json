@@ -1,6 +1,6 @@
 {
   "name": "ZSTD",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Zstandard, fast real-time compression algorithm",
   "keywords": "zstd, compression, lossless",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "authors": [
     {
-      "name": "Rodrigo Deldica",
+      "name": "Rodrigo Delduca",
       "email": "rodrigodelduca@gmail.com",
       "url": "https://rodrigodelduca.com.br/"
     }
