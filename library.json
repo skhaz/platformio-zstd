@@ -1,11 +1,11 @@
 {
   "name": "ZSTD",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Zstandard, fast real-time compression algorithm",
   "keywords": "zstd, compression, lossless",
   "repository": {
     "type": "git",
-    "url": "https://github.com/skhaz/platformio-zstd.git"
+    "url": "https://github.com/skhaz/zstd.git"
   },
   "authors": [
     {
